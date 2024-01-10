@@ -253,3 +253,82 @@ button img{
   display: block;
   background-color: #A99562;
 }
+
+/*
+  contacto
+*/
+
+
+.contact p{
+  padding: 0 1.2em;
+  line-height: 1;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  font-weight: 300;
+}
+
+.contact-icon{
+  width: 30px;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: .3em;
+}
+
+.form{
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.form input,
+.form textarea{
+  width: 100%;
+  background-color: #1E1E1E;
+  color: #A99562;
+  border: none;
+  font-style: italic;
+  margin-bottom: .5em;
+}
+
+.form .button{
+  border: none;
+  color: white;
+  width: 90%;
+  font-weight: bolder;
+  padding: .5em;
+
+}
+
+
+.form textarea{
+  resize: none;
+}
+
+.map{
+  margin: auto;
+  width: calc(100vw - 2em);
+}
+.map iframe{
+  width:  100%
+}
+
+footer{
+  border-top: 1px solid #a9956285;
+  margin-top: 1em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.logo p{
+  color: #A99562;
+  margin-top: .3em;
+}
+
+footer p:nth-of-type(2){
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+footer p:nth-of-type(2) span{
+  color: #A99562;
+}
