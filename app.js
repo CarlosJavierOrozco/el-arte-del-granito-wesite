@@ -35,3 +35,37 @@ item3.addEventListener("click", ()=>{
     item2.classList.remove("active")
     item1.classList.remove("active")
 })
+
+let menuPanel = document.querySelector(".menu-panel");
+let menu = document.querySelector(".hamburger");
+let menuLink1 = document.querySelector(".menu-panel a:nth-child(1)")
+let menuLink2 = document.querySelector(".menu-panel a:nth-child(2)")
+let menuLink3 = document.querySelector(".menu-panel a:nth-child(3)")
+let menuLink4 = document.querySelector(".menu-panel a:nth-child(4)")
+
+
+
+menu.addEventListener("click", ()=>{
+    menu.classList.toggle("is-active")
+    menuPanel.classList.toggle("is-active")
+})
+
+menuLink1.addEventListener("click", ()=>{
+    menu.classList.toggle("is-active")
+    menuPanel.classList.toggle("is-active")
+})
+
+menuLink2.addEventListener("click", ()=>{
+    menu.classList.toggle("is-active")
+    menuPanel.classList.toggle("is-active")
+})
+
+menuLink3.addEventListener("click", ()=>{
+    menu.classList.toggle("is-active")
+    menuPanel.classList.toggle("is-active")
+})
+
+menuLink4.addEventListener("click", ()=>{
+    menu.classList.toggle("is-active")
+    menuPanel.classList.toggle("is-active")
+})

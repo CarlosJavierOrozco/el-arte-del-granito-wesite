@@ -7,12 +7,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Raleway:ital,wght@0,400;1,100;1,200;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="normalize.css">
+  <link href="hamburgers.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>El arte del Granito</title>
 </head>
 <body>
   <div class="main-container">
-      <div class="hero-container">
+      <div class="menu">
+        <button class="hamburger hamburger--minus" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>        
+        <div class="logo">
+          <img src="img/logo-granito.svg" alt="logo del arte del granito">
+          <p>el arte del granito</p>
+        </div>
+      </div>
+
+      <div class="menu-panel">
+        <a href="#home">inicio</a>
+        <a href="#service">servicios</a>
+        <a href="#works">trabajos</a>
+        <a href="#contact">contactos</a>
+      </div>
+
+
+      <div class="hero-container" id="home">
         <section class="hero-section">
           <h1>      
             Añada un toque de <span class="gold-text">elegancia</span>  y <span class="gold-text">sofisticación</span> a sus espacios con
@@ -24,7 +45,7 @@
           </div>
         </section>
       </div>
-      <section class="service">
+      <section class="service" id="service">
         <h2 class="sub-title gold-text">servicios</h2>
 
         <div class="container">
@@ -79,7 +100,7 @@
             quisquam similique facilis!</p>
       </section>
 
-      <section class="ours-works">
+      <section class="ours-works" id="works">
         <h2 class="sub-title gold-text">trabajos</h2>
         <div class="works">
           <div class="work_item">
@@ -105,7 +126,7 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="sub-title gold-text">contactos</h2>
         <p><img src="img/whatsapp.svg" alt="whatsapp" class="contact-icon"><a href="https://api.whatsapp.com/send?phone=584127145259&text=Saludos">(+58) 123-1222</a></p>
         <p><img src="img/tel.svg" alt="phone" class="contact-icon"><a href="tel:04127145259">(+58) 123-1222</a></p>
